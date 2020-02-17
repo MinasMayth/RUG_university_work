@@ -2,6 +2,8 @@
 """
 Created on Mon Feb 17 23:26:17 2020
 
+A simple python file that uses json to read and write from a file that stores student grade results.
+
 @author: samya
 """
 
