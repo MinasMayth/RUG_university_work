@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 """
 Created on Fri Feb 14 14:11:45 2020
-
+An improved version of homework 1 that uses wxpython to create a nice GUI to enter data. NOTE: For some reason an error pops up
+every once in a while that the app hasn't been created, even though that's the first command of the script. Odd.
 @author: pc
 """
 
