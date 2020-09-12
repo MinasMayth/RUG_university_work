@@ -3,6 +3,13 @@
 Created on Wed Sep  9 11:25:15 2020
 
 @author: samya
+
+
+This is a data scraper for the dutch housing website Huislijn.nl for houses in Groningen. 
+The scraper extracts the price, area and number of rooms for each house and then stores them into arrays.
+These arrays are then plotted onto a scatter plot and linear regression calculations are performed with them.
+There is a possibility to improve this code even further, for example by implementing more cities.
+
 """
 
 from sklearn.linear_model import LinearRegression
