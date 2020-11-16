@@ -26,7 +26,9 @@ def exponential(x, n):
     return(p)  
   
     # This portion of the code was drawn from https://www.geeksforgeeks.org/program-to-efficiently-calculate-ex/, by Danish Raza 
-
+    # Note: I rewrote the expontential function in the style of the sin and cos functions, because I think
+    # they are a lot more clear than the original code form geeksforgeeks. Also, it helped me fully understand
+    # the syntax and meaning of the code
 
 
 # Both following functions are taken from https://stackoverflow.com/questions/45169675/python-calculate-sine-cosine-with-a-precision-of-up-to-1-million-digits
