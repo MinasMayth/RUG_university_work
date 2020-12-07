@@ -10,11 +10,10 @@ Created on Fri Nov 27 19:17:05 2020
 import matplotlib.pyplot as plt
 import numpy as np
 
-if __name__ == "__main__":
-    def function(x):
-        return x**2-2 # The main function
-    def derivative(x):
-        return 2*x # The derivative of the main function
+def function(x):
+    return x**2-2 # The main function
+def derivative(x):
+    return 2*x # The derivative of the main function
 
 def newton(function, derivative, x0, tolerance, number_of_max_iterations=100):
     x1 = 0
