@@ -61,7 +61,7 @@ def third_derivative(x):
 
 def third_order_taylor(f1,f2,f3,f4,x0, a):
     print("\n******TAYLOR-APPROXIMATION******\n")
-    approximation = ((f1(a)/math.factorial(0)) * (x0-a)**0)+  ((f2(a)/math.factorial(1)) * (x0-a)**1) +  ((f3(a)/math.factorial(2)) * (x0-a)**2) + ((f4(a)/math.factorial(3)) * (x0-a)**3)
+    approximation = ((f1(a)/math.factorial(0)) * (x0-a)**0) +  ((f2(a)/math.factorial(1)) * (x0-a)**1) +  ((f3(a)/math.factorial(2)) * (x0-a)**2) + ((f4(a)/math.factorial(3)) * (x0-a)**3)
     return approximation
 
 ans = third_order_taylor(function,first_derivative,second_derivative,third_derivative,0,0)
