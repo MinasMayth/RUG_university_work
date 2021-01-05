@@ -9,6 +9,11 @@ Created on Wed Dec  9 09:02:24 2020
 
 import math
 
+def function(x):
+    return math.exp(-x)-x # The main function
+def derivative(x):
+    return -math.exp(-x)-1 # The derivative of the main function
+
 def secant_method(f, x0, x1):
     print("\n******SECANT-METHOD******")
     for i in range(0,3):
@@ -16,17 +21,8 @@ def secant_method(f, x0, x1):
         x1, x0 = x2, x1
     return (x2)
  
-f = lambda x: math.exp(-x)-x  #The Main Function  
- 
-root = secant_method(f, 0, 1)
+root = secant_method(function, 0, 1)
 print ("root is:", root)
-
-
-
-def function(x):
-    return math.exp(-x)-x # The main function
-def derivative(x):
-    return -math.exp(-x)-1 # The derivative of the main function
 
 def NewtonsMethod(f, d, x, tolerance=0.000001):
     print("\n******NEWTON-RAPHSON******")
